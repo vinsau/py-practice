@@ -1,0 +1,6 @@
+server_id,hostname,region,status
+srv-001,web-prod-01,us-east-1,online
+srv-002,db-prod-01,us-west-2,online
+srv-003,web-staging-01,us-east-1,offline
+srv-004,api-prod-01,eu-central-1,online
+srv-005,cache-prod-01,us-east-1,online

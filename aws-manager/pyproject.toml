@@ -1,0 +1,17 @@
+[project]
+name = 'aws-manager'
+version = '1.0'
+authors = [
+    {name='gauciv', email='vincentaugusto16@gmail.com'}
+]
+description = 'A tool to manage s3 and ec2'
+requires-python = '>=3.8'
+dependencies = [
+    'boto3'
+]
+
+[tool.pytest.ini_options]
+pythonpath = ['src']
+
+[project.scripts]
+aws-manager = 'aws_manager.main:main'

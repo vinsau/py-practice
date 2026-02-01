@@ -1,0 +1,44 @@
+{
+    "app": {
+        "name": "MyCoolApp",
+        "version": "1.2.3",
+        "debug": true
+    },
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "username": "admin",
+        "password": "secret123",
+        "name": "app_db"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "/var/log/mycoolapp/app.log",
+        "rotation": {
+            "max_size": "10MB",
+            "backups": 5
+        }
+    },
+    "features": [
+        "authentication",
+        "email_notifications",
+        "analytics"
+    ],
+    "users": [
+        {
+            "name": "Alice",
+            "role": "admin",
+            "active": true
+        },
+        {
+            "name": "Bob",
+            "role": "editor",
+            "active": false
+        },
+        {
+            "name": "Carol",
+            "role": "viewer",
+            "active": true
+        }
+    ]
+}

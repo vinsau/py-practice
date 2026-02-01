@@ -1,0 +1,15 @@
+.venv
+__pycache__
+.pytest_cache
+*.pyc
+.DS_Store
+.idea
+.vscode
+.env
+*.log
+dist/
+build/
+*.egg-info/
+terraform.tfstate
+.terraform
+terraform.tfstate.backup

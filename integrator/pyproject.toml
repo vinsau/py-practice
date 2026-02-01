@@ -1,0 +1,17 @@
+[project]
+name = 'git-manager'
+version = '1.0'
+authors = [
+    {name='gauciv', email='vincentaugusto16@gmail.com'}
+]
+description = 'A tool to list and create repos in github'
+requires-python = '>=3.8'
+dependencies = [
+    'requests'
+]
+
+[tool.pytest.ini_options]
+pythonpath = ['src', '.']
+
+[project.scripts]
+gitmanage = 'git_manager.main:main'
